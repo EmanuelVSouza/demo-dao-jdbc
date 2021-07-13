@@ -52,9 +52,9 @@ public class Program {
 		sellerDao.update(seller);
 		System.out.println("Update completed");
 		
-		System.out.println("\n=== TESTE 6: seller update ===");
+		System.out.println("\n=== TESTE 6: seller delete ===");
 		
-		System.out.print("Enter id for delete teste ");
+		System.out.print("Enter id for delete teste: ");
 		int id = sc.nextInt();
 		sellerDao.deleteById(id);
 		System.out.println("Delete completed!");
